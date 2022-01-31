@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\conf\application.conf,C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\target\scala-2.13\classes\application.conf)
+[debug] 	(C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\conf\application.test.conf,C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\target\scala-2.13\classes\application.test.conf)
+[debug] 	(C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\conf\routes,C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\target\scala-2.13\classes\routes)

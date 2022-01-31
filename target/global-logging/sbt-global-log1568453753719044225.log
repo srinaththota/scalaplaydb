@@ -1,0 +1,43 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_291)
+[debug] Load.defaultLoad until apply took 1712.2576ms
+[debug]           Load.loadUnit: plugins took 193.8102ms
+[debug]           Load.loadUnit: defsScala took 0.6157ms
+[debug] [Loading] Scanning directory C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\project
+[debug]             Load.loadUnit: mkEval took 11.3134ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.0661 ms
+[info] loading settings for project scalaplaydb-build from plugin.sbt ...
+[debug]               Load.resolveProject(scalaplaydb-build) took 90.9656ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scalaplaydb-build, base: C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\project, plugins: List(<none>))) took 163.4087ms
+[debug] [Loading] Done in C:\Users\srinath\Desktop\daily-activities\26-01-2022\scalaplaydb\project, returning: (scalaplaydb-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 619.8326ms
+[debug]           Load.loadUnit: cleanEvalClasses took 16.0076ms
+[debug]         Load.loadUnit(file:/C:/Users/srinath/Desktop/daily-activities/26-01-2022/scalaplaydb/project/, ...) took 839.9238ms
+[debug]       Load.apply: load took 1025.8885ms
+[debug]       Load.apply: resolveProjects took 7.4386ms
+[debug]       Load.apply: finalTransforms took 132.8644ms
+[debug]       Load.apply: config.delegates took 26.6556ms

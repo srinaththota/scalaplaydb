@@ -1,0 +1,22 @@
+[debug] javaOptions: Vector()
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+[debug]   Running TaskDef(controllers.ControllerSpec, sbt.ForkMain$SubclassFingerscan@2d6e8792, false, [SuiteSelector])
+[info] ControllerSpec:
+[info] A Stack
+[info] - must pop values in last-in-first-out order
+[debug]     Produced 0 nested tasks and 1 events.
+[debug]   Running TaskDef(services.ServiceSpec, sbt.ForkMain$SubclassFingerscan@2812cbfa, false, [SuiteSelector])
+[info] ServiceSpec:
+[info] A Stack
+[info] - must pop values in last-in-first-out order
+[debug]     Produced 0 nested tasks and 1 events.
+[info] Run completed in 2 seconds, 365 milliseconds.
+[info] Total number of tests run: 2
+[info] Suites: completed 2, aborted 0
+[info] Tests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	controllers.ControllerSpec
+[debug] 	services.ServiceSpec
